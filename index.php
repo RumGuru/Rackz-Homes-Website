@@ -367,7 +367,6 @@ Easy
                 if($_GET['success'] == -1){
                     echo "<div class=\"form-messages error\"> Error! Missing Fields! </div>";
                 }
-                
 
                 ?>
                 

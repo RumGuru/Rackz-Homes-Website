@@ -8,8 +8,8 @@
 
     // Check the data.
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: ourURL/index.php?success=-1#form");
-    
+       // header("Location: ourURL/index.php?success=-1#form");
+       header("Location: index.php?success=-1#form");
         exit;
     }
 
@@ -31,6 +31,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Redirect to the index.html page with success code
-    header("Location: ourURL/index.php?success=1#form");
-
+   // header("Location: ourURL/index.php?success=1#form");
+   header("Location: index.php?success=1#form");
 ?>
