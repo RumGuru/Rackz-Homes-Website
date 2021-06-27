@@ -675,3 +675,15 @@ footer p {
 }
 
 
+
+/* ----------------------------------------------- */
+/* JQUERY */
+/* ----------------------------------------------- */
+
+.form-messages{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius:3px;
+    margin-bottom:20px;
+}
