@@ -50,6 +50,7 @@
                 </div>
             </nav>
             <div class="hero-text-box">
+            test
                 <h1>Rackz Homes<br>For all your renovation needs</h1>
                 <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
             </div>
